@@ -1,0 +1,45 @@
+Project Title: MakeMyTrip Bus Ticket Booking Automation
+Author: SathishKumar JR
+
+Technology Stack:
+=================
+- Java
+- Selenium WebDriver 4.33.0
+- TestNG 7.11.0
+- ExtentReports 5.1.1
+- Apache POI 5.2.2 (for Excel integration)
+- Eclipse IDE (2023-xx version)
+- ChromeDriver (v137.x) for browser interaction
+
+Project Overview:
+=================
+This automation project is built to simulate the real-time bus ticket booking flow on MakeMyTrip. It includes:
+- City selection (From/To)
+- Journey date selection
+- Fetching available buses
+- Selecting a seat
+- Filling in passenger details
+- Continuing through the booking flow (up to confirmation screen)
+
+Project Structure:
+==================
+- `src/main/java`: Contains Page Object Model (POM) based structured classes for HomePage, BusSearchPage, AvailableBusesPage, and CheckOutPage.
+- `src/test/java`: Includes the main test runner class `MakeMyTripBusTests.java`.
+- `src/main/resources/TestData.xlsx`: Excel file for data-driven testing using Apache POI.
+- `src/main/resources/Screenshots`: Automatically stores screenshots on test failure.
+- `lib/`: Contains required `.jar` files for Selenium, POI, TestNG, and ExtentReports.
+- `drivers/`: ChromeDriver executable used for test execution.
+- `reports/`: Contains generated ExtentReports HTML summary after test execution.
+
+Environment Setup:
+==================
+- Developed and tested using Eclipse IDE.
+- Java SDK 17+
+- OS: Windows 11
+- Project executed using `TestNG` with Excel data provider.
+
+Special Notes:
+==============
+- The ChromeDriver path is set in `MakeMyTripBusTests.java` using:
+  ```java
+  System.setProperty("webdriver.chrome.driver", "D:\\chromedriver\\chromedriver-win64\\chromedriver.exe");
