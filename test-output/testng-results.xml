@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-05T17:40:03 IST" name="Default suite" finished-at="2025-06-05T17:41:58 IST" duration-ms="114902">
+  <suite started-at="2025-06-05T18:33:15 IST" name="Default suite" finished-at="2025-06-05T18:35:14 IST" duration-ms="119121">
     <groups>
     </groups>
-    <test started-at="2025-06-05T17:40:03 IST" name="Default test" finished-at="2025-06-05T17:41:58 IST" duration-ms="114902">
+    <test started-at="2025-06-05T18:33:15 IST" name="Default test" finished-at="2025-06-05T18:35:14 IST" duration-ms="119121">
       <class name="tests.MakeMyTripBusTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5]" started-at="2025-06-05T17:40:03 IST" name="setup" finished-at="2025-06-05T17:40:11 IST" duration-ms="7582" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.MakeMyTripBusTests@117e949d]" started-at="2025-06-05T18:33:15 IST" name="setup" finished-at="2025-06-05T18:33:26 IST" duration-ms="11147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="resetTest(java.lang.reflect.Method)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5]" started-at="2025-06-05T17:40:14 IST" name="resetTest" finished-at="2025-06-05T17:40:14 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="resetTest(java.lang.reflect.Method)[pri:0, instance:tests.MakeMyTripBusTests@117e949d]" started-at="2025-06-05T18:33:29 IST" name="resetTest" finished-at="2025-06-05T18:33:29 IST" duration-ms="52" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetTest -->
-        <test-method signature="makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5]" started-at="2025-06-05T17:40:14 IST" name="makeMyTripBusBookingFlow" data-provider="bookingData" finished-at="2025-06-05T17:40:39 IST" duration-ms="24590" status="PASS">
+        <test-method signature="makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@117e949d]" started-at="2025-06-05T18:33:29 IST" name="makeMyTripBusBookingFlow" data-provider="bookingData" finished-at="2025-06-05T18:33:56 IST" duration-ms="26339" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,29 +68,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeMyTripBusBookingFlow -->
-        <test-method is-config="true" signature="captureFailureScreenshot(org.testng.ITestResult)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5]" started-at="2025-06-05T17:40:39 IST" name="captureFailureScreenshot" finished-at="2025-06-05T17:40:39 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="captureFailureScreenshot(org.testng.ITestResult)[pri:0, instance:tests.MakeMyTripBusTests@117e949d]" started-at="2025-06-05T18:33:56 IST" name="captureFailureScreenshot" finished-at="2025-06-05T18:33:56 IST" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=makeMyTripBusBookingFlow status=SUCCESS method=MakeMyTripBusTests.makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5] output={null}]]]>
+                <![CDATA[[TestResult name=makeMyTripBusBookingFlow status=SUCCESS method=MakeMyTripBusTests.makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@117e949d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureFailureScreenshot -->
-        <test-method is-config="true" signature="resetTest(java.lang.reflect.Method)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5]" started-at="2025-06-05T17:40:39 IST" name="resetTest" finished-at="2025-06-05T17:40:39 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.MakeMyTripBusTests.makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetTest -->
-        <test-method signature="makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5]" started-at="2025-06-05T17:40:39 IST" name="makeMyTripBusBookingFlow" data-provider="bookingData" finished-at="2025-06-05T17:41:02 IST" duration-ms="23310" status="PASS">
+        <test-method signature="makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@117e949d]" started-at="2025-06-05T18:33:56 IST" name="makeMyTripBusBookingFlow" data-provider="bookingData" finished-at="2025-06-05T18:34:19 IST" duration-ms="23059" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,18 +125,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeMyTripBusBookingFlow -->
-        <test-method is-config="true" signature="captureFailureScreenshot(org.testng.ITestResult)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5]" started-at="2025-06-05T17:41:02 IST" name="captureFailureScreenshot" finished-at="2025-06-05T17:41:02 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=makeMyTripBusBookingFlow status=SUCCESS method=MakeMyTripBusTests.makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureFailureScreenshot -->
-        <test-method is-config="true" signature="resetTest(java.lang.reflect.Method)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5]" started-at="2025-06-05T17:41:02 IST" name="resetTest" finished-at="2025-06-05T17:41:02 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="resetTest(java.lang.reflect.Method)[pri:0, instance:tests.MakeMyTripBusTests@117e949d]" started-at="2025-06-05T18:33:56 IST" name="resetTest" finished-at="2025-06-05T18:33:56 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,7 +136,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetTest -->
-        <test-method signature="makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5]" started-at="2025-06-05T17:41:02 IST" name="makeMyTripBusBookingFlow" data-provider="bookingData" finished-at="2025-06-05T17:41:35 IST" duration-ms="33371" status="PASS">
+        <test-method is-config="true" signature="captureFailureScreenshot(org.testng.ITestResult)[pri:0, instance:tests.MakeMyTripBusTests@117e949d]" started-at="2025-06-05T18:34:19 IST" name="captureFailureScreenshot" finished-at="2025-06-05T18:34:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=makeMyTripBusBookingFlow status=SUCCESS method=MakeMyTripBusTests.makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@117e949d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailureScreenshot -->
+        <test-method is-config="true" signature="resetTest(java.lang.reflect.Method)[pri:0, instance:tests.MakeMyTripBusTests@117e949d]" started-at="2025-06-05T18:34:19 IST" name="resetTest" finished-at="2025-06-05T18:34:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MakeMyTripBusTests.makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetTest -->
+        <test-method signature="makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@117e949d]" started-at="2025-06-05T18:34:19 IST" name="makeMyTripBusBookingFlow" data-provider="bookingData" finished-at="2025-06-05T18:34:51 IST" duration-ms="32337" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -204,18 +204,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeMyTripBusBookingFlow -->
-        <test-method is-config="true" signature="captureFailureScreenshot(org.testng.ITestResult)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5]" started-at="2025-06-05T17:41:35 IST" name="captureFailureScreenshot" finished-at="2025-06-05T17:41:35 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="captureFailureScreenshot(org.testng.ITestResult)[pri:0, instance:tests.MakeMyTripBusTests@117e949d]" started-at="2025-06-05T18:34:51 IST" name="captureFailureScreenshot" finished-at="2025-06-05T18:34:51 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=makeMyTripBusBookingFlow status=SUCCESS method=MakeMyTripBusTests.makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5] output={null}]]]>
+                <![CDATA[[TestResult name=makeMyTripBusBookingFlow status=SUCCESS method=MakeMyTripBusTests.makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@117e949d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureFailureScreenshot -->
-        <test-method is-config="true" signature="resetTest(java.lang.reflect.Method)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5]" started-at="2025-06-05T17:41:35 IST" name="resetTest" finished-at="2025-06-05T17:41:35 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="resetTest(java.lang.reflect.Method)[pri:0, instance:tests.MakeMyTripBusTests@117e949d]" started-at="2025-06-05T18:34:51 IST" name="resetTest" finished-at="2025-06-05T18:34:51 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -226,7 +226,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetTest -->
-        <test-method signature="makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5]" started-at="2025-06-05T17:41:35 IST" name="makeMyTripBusBookingFlow" data-provider="bookingData" finished-at="2025-06-05T17:41:56 IST" duration-ms="20466" status="PASS">
+        <test-method signature="makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@117e949d]" started-at="2025-06-05T18:34:51 IST" name="makeMyTripBusBookingFlow" data-provider="bookingData" finished-at="2025-06-05T18:35:12 IST" duration-ms="20488" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -272,18 +272,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeMyTripBusBookingFlow -->
-        <test-method is-config="true" signature="captureFailureScreenshot(org.testng.ITestResult)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5]" started-at="2025-06-05T17:41:56 IST" name="captureFailureScreenshot" finished-at="2025-06-05T17:41:56 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="captureFailureScreenshot(org.testng.ITestResult)[pri:0, instance:tests.MakeMyTripBusTests@117e949d]" started-at="2025-06-05T18:35:12 IST" name="captureFailureScreenshot" finished-at="2025-06-05T18:35:12 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=makeMyTripBusBookingFlow status=SUCCESS method=MakeMyTripBusTests.makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5] output={null}]]]>
+                <![CDATA[[TestResult name=makeMyTripBusBookingFlow status=SUCCESS method=MakeMyTripBusTests.makeMyTripBusBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MakeMyTripBusTests@117e949d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureFailureScreenshot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MakeMyTripBusTests@5f8edcc5]" started-at="2025-06-05T17:41:56 IST" name="tearDown" finished-at="2025-06-05T17:41:58 IST" duration-ms="2120" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MakeMyTripBusTests@117e949d]" started-at="2025-06-05T18:35:12 IST" name="tearDown" finished-at="2025-06-05T18:35:14 IST" duration-ms="2276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
