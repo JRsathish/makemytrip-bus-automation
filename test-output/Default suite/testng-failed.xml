@@ -5,10 +5,9 @@
     <classes>
       <class name="tests.MakeMyTripBusTests">
         <methods>
-          <include name="setup"/>
-          <include name="resetTest"/>
-          <include name="enterFromAndToCities" invocation-numbers="0 1 2 3"/>
           <include name="captureFailureScreenshot"/>
+          <include name="makeMyTripBusBookingFlow" invocation-numbers="0"/>
+          <include name="setup"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- tests.MakeMyTripBusTests -->

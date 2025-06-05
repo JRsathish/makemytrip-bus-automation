@@ -24,4 +24,6 @@ public abstract class BasePage {
         this.js = (JavascriptExecutor) driver;
         PageFactory.initElements(driver, this);  
     }
+    
+    
 }
