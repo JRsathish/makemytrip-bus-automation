@@ -36,6 +36,20 @@
 			<artifactId>testng</artifactId>
 			<version>7.11.0</version>
 		</dependency>
+		
+		<!-- This is the main API for Log4j2; your application code uses this -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.20.0</version> <!-- Use latest version available -->
+		</dependency>
+
+        <!-- This is the actual implementation of Log4j2. Required for logging to work -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.20.0</version> <!-- Must match log4j-api version -->
+		</dependency>
 
 		<!-- Apache POI (Core library to read/write Excel files - .xls format) -->
 		<dependency>
