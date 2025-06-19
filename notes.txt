@@ -42,4 +42,3 @@ Special Notes:
 ==============
 - The ChromeDriver path is set in `MakeMyTripBusTests.java` using:
   ```java
-  System.setProperty("webdriver.chrome.driver", "D:\\chromedriver\\chromedriver-win64\\chromedriver.exe");
