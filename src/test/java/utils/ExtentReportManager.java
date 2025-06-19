@@ -17,7 +17,7 @@ public class ExtentReportManager {
 
     public static ExtentReports createInstance(String filePath) {
         ExtentSparkReporter sparkReporter = new ExtentSparkReporter(filePath);
-        sparkReporter.config().setTheme(Theme.STANDARD);
+        sparkReporter.config().setTheme(Theme.DARK);
         sparkReporter.config().setDocumentTitle("Bus Ticket Booking Automation Report");
         sparkReporter.config().setReportName("Booking Flow Tests");
 
